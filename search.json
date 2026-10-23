@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site is built with Quarto and hosted on GitHub Pages. Source: github.com/timothyzshen/timothyzshen.github.io."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "With Dr. Christina Ramirez, UCLA Biostatistics\nDeveloping mossyforest, an interpretable, network-aware, tree-based feature selection method for highly correlated data using SHAP values, Recursive Feature Elimination, and stability selection. Currently we are extending it to longitudinal data through time-aware network reduction and mixed-effects trees. Applied to 800,000+ CpG sites of DNA methylation to identify HIV-related epigenetic biomarkers of aging.\n\n\n\nWith Dr. Brunilda Balliu, UCLA Computational Medicine\nBuilding machine learning and deep learning models that use passive wearable and smartphone sensing data to predict depression severity. Work includes deep learning imputation (autoencoders, self-attention transformers), predictive modeling, and subtyping of latent mental health states with multivariate hidden Markov models.\n\n\n\nWith Dr. Helen Lavretsky and Dr. Christina Ramirez, UCLA\nApplying network-guided machine learning to brain markers and biomarkers to model cognitive outcomes, and characterizing how age modifies correlation network structure and predictor importance."
+  },
+  {
+    "objectID": "research.html#current-projects",
+    "href": "research.html#current-projects",
+    "title": "Research",
+    "section": "",
+    "text": "With Dr. Christina Ramirez, UCLA Biostatistics\nDeveloping mossyforest, an interpretable, network-aware, tree-based feature selection method for highly correlated data using SHAP values, Recursive Feature Elimination, and stability selection. Currently we are extending it to longitudinal data through time-aware network reduction and mixed-effects trees. Applied to 800,000+ CpG sites of DNA methylation to identify HIV-related epigenetic biomarkers of aging.\n\n\n\nWith Dr. Brunilda Balliu, UCLA Computational Medicine\nBuilding machine learning and deep learning models that use passive wearable and smartphone sensing data to predict depression severity. Work includes deep learning imputation (autoencoders, self-attention transformers), predictive modeling, and subtyping of latent mental health states with multivariate hidden Markov models.\n\n\n\nWith Dr. Helen Lavretsky and Dr. Christina Ramirez, UCLA\nApplying network-guided machine learning to brain markers and biomarkers to model cognitive outcomes, and characterizing how age modifies correlation network structure and predictor importance."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Timothy Shen",
+    "section": "",
+    "text": "Ph.D. Student, Biostatistics\nUniversity of California, Los Angeles\nEmail\nGitHub · LinkedIn · ORCID · CV\n\n\n\n\n\n\n\nI am a Ph.D. student in the Department of Biostatistics at the UCLA Fielding School of Public Health, advised by Dr. Christina Ramirez and Dr. Brunilda Balliu.\nMy research interest is on interpretable machine learning methods for high-dimensional, correlated, and longitudinal data. I focus on tree-based models, network-aware feature selection, and unsupervised learning, with applications in HIV and aging, epigenomics, neuroscience, wearable devices and digital phenotyping for mental health.\nPreviously, I received my B.S. in Statistics from UC Davis (minors in Computer Science and Mathematics) in 2024. In my spare time, I enjoy running to bakeries and eating at them. I am on a mission to eat at every bakery in the westside of Los Angeles. I also am a big advocate for public transportation and will attempt to convince anyone near me to ride transit with me.\n\n\n\n mossyforest — network-aware stability selection with random forests for correlated, high-dimensional data. (Methods Paper in progress) \n\n\n\n\nTree-based models, feature selection, and deep learning\nHigh-dimensional and longitudinal data\nNetwork analysis and unsupervised learning\nEpigenomics, HIV and aging, neuroscience, and digital mental health"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Timothy Shen",
+    "section": "",
+    "text": "I am a Ph.D. student in the Department of Biostatistics at the UCLA Fielding School of Public Health, advised by Dr. Christina Ramirez and Dr. Brunilda Balliu.\nMy research interest is on interpretable machine learning methods for high-dimensional, correlated, and longitudinal data. I focus on tree-based models, network-aware feature selection, and unsupervised learning, with applications in HIV and aging, epigenomics, neuroscience, wearable devices and digital phenotyping for mental health.\nPreviously, I received my B.S. in Statistics from UC Davis (minors in Computer Science and Mathematics) in 2024. In my spare time, I enjoy running to bakeries and eating at them. I am on a mission to eat at every bakery in the westside of Los Angeles. I also am a big advocate for public transportation and will attempt to convince anyone near me to ride transit with me."
+  },
+  {
+    "objectID": "index.html#r-package",
+    "href": "index.html#r-package",
+    "title": "Timothy Shen",
+    "section": "",
+    "text": "mossyforest — network-aware stability selection with random forests for correlated, high-dimensional data. (Methods Paper in progress)"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Timothy Shen",
+    "section": "",
+    "text": "Tree-based models, feature selection, and deep learning\nHigh-dimensional and longitudinal data\nNetwork analysis and unsupervised learning\nEpigenomics, HIV and aging, neuroscience, and digital mental health"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Network Aware Stability Selection with Random Forests\nAn R package (submitted to CRAN) for interpretable, network-aware, tree-based feature selection on highly correlated, high-dimensional data, using SHAP values and Recursive Feature Elimination.\n\nTimothy Shen and Christina Ramirez. R package version 0.1.0 (2026).\nGitHub\n\n# install.packages(\"remotes\")\nremotes::install_github(\"timothyzshen/mossyforest\")"
+  },
+  {
+    "objectID": "software.html#mossyforest",
+    "href": "software.html#mossyforest",
+    "title": "Software",
+    "section": "",
+    "text": "Network Aware Stability Selection with Random Forests\nAn R package (submitted to CRAN) for interpretable, network-aware, tree-based feature selection on highly correlated, high-dimensional data, using SHAP values and Recursive Feature Elimination.\n\nTimothy Shen and Christina Ramirez. R package version 0.1.0 (2026).\nGitHub\n\n# install.packages(\"remotes\")\nremotes::install_github(\"timothyzshen/mossyforest\")"
+  }
+]

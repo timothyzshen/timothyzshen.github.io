@@ -1,0 +1,52 @@
+/* css styles */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Source+Sans+3:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Source Sans 3", "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  font-family: "Open Sans", "Source Sans 3", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+  font-weight: 7500;
+}
+
+h1.title {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+.navbar .nav-link, .navbar-brand {
+  font-weight: 600;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+.navbar {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  min-height: 0;
+}
+
+.navbar-brand {
+  font-size: 1.1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.navbar .nav-link {
+  font-size: 0.95rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
