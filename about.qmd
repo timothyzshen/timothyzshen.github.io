@@ -1,0 +1,7 @@
+---
+title: "About"
+---
+
+This site is built with [Quarto](https://quarto.org/docs/websites) and hosted on GitHub Pages. Source: [github.com/timothyzshen/timothyzshen.github.io](https://github.com/timothyzshen/timothyzshen.github.io).
+
+<!-- PLACEHOLDER: contact info, office location, or accessibility / credits note -->

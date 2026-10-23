@@ -1,0 +1,27 @@
+---
+title: "Software"
+---
+
+## mossyforest
+
+*Network Aware Stability Selection with Random Forests*
+
+An R package (submitted to CRAN) for interpretable, network-aware, tree-based feature selection on highly correlated, high-dimensional data, using SHAP values and Recursive Feature Elimination. 
+
+- Timothy Shen and Christina Ramirez. R package version 0.1.0 (2026).
+- [GitHub](https://github.com/timothyzshen/mossyforest)
+
+```r
+# install.packages("remotes")
+remotes::install_github("timothyzshen/mossyforest")
+```
+
+<!-- ## Other Projects -->
+
+<!-- - **PLACEHOLDER: Project name** — one-line description. [GitHub](https://github.com/timothyzshen) -->
+<!-- - **PLACEHOLDER: R Shiny dashboard** — description of a dashboard or tool you built. [Live app](#) -->
+
+<!-- ## Skills -->
+
+<!-- **Languages:** R (package development, Shiny), Python, SQL, SAS, MATLAB, Bash\ -->
+<!-- **Tools:** TensorFlow, Git/GitHub, Docker, SLURM and SGE for high-performance computing -->

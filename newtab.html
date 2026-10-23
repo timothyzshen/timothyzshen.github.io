@@ -1,0 +1,10 @@
+<script>
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    var href = a.getAttribute('href');
+    var external = /^https?:\/\//.test(href) && a.hostname !== location.hostname;
+    if (external || /\.pdf$/.test(href)) {
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+    }
+  });
+</script>

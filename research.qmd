@@ -1,0 +1,36 @@
+---
+title: "Research"
+---
+
+<!-- ## Publications -->
+
+<!-- *Timothy Shen.* "Empowering the Underprivileged: How Machine Learning is Revolutionizing Humanitarian Assistance in Low-Income Countries." *Prized Writing*, UC Davis (2023). <!-- PLACEHOLDER: add link --> 
+
+<!-- ## Preprints and Manuscripts in Preparation -->
+
+<!-- - **PLACEHOLDER: Title of mossyforest methods paper.** Timothy Shen, Christina Ramirez. *In preparation.* -->
+<!-- - **PLACEHOLDER: Title of wearable / depression prediction paper.** Timothy Shen, Brunilda Balliu, et al. *In preparation.* -->
+<!-- - **PLACEHOLDER: Title of HIV epigenetic aging paper.** Timothy Shen, Christina Ramirez, et al. *In preparation.* -->
+
+## Current Projects
+
+### Network-aware random forests for correlated, high-dimensional data
+*With Dr. Christina Ramirez, UCLA Biostatistics*
+
+Developing **mossyforest**, an interpretable, network-aware, tree-based feature selection method for highly correlated data using SHAP values, Recursive Feature Elimination, and stability selection. Currently we are extending it to longitudinal data through time-aware network reduction and mixed-effects trees. Applied to 800,000+ CpG sites of DNA methylation to identify HIV-related epigenetic biomarkers of aging.
+
+### Predicting Mental Health through Passive Sensing data
+*With Dr. Brunilda Balliu, UCLA Computational Medicine*
+
+Building machine learning and deep learning models that use passive wearable and smartphone sensing data to predict depression severity. Work includes deep learning imputation (autoencoders, self-attention transformers), predictive modeling, and subtyping of latent mental health states with multivariate hidden Markov models.
+
+### Age and brain network structure in the Aging Adult Brain Connectome
+*With Dr. Helen Lavretsky and Dr. Christina Ramirez, UCLA*
+
+Applying network-guided machine learning to brain markers and biomarkers to model cognitive outcomes, and characterizing how age modifies correlation network structure and predictor importance.
+
+<!-- ## Talks and Posters -->
+
+<!-- - **PLACEHOLDER: Talk or poster title.** Conference / Seminar, Location, Month Year. -->
+
+

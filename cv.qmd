@@ -1,0 +1,5 @@
+---
+title: "CV"
+---
+
+<embed src="cv.pdf" type="application/pdf" width="100%" style="height: 90vh;">

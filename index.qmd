@@ -1,0 +1,56 @@
+---
+title: "Timothy Shen"
+---
+
+::: {.columns}
+
+::: {.column width="28%"}
+<!-- PLACEHOLDER: add a headshot at images/headshot.jpg, then uncomment -->
+![](images/headshot.jpg){fig-alt="Timothy Shen" width=100%}
+
+**Ph.D. Student, Biostatistics**\
+University of California, Los Angeles
+
+<a id="email-link" href="#">Email</a>\
+[GitHub](https://github.com/timothyzshen) · [LinkedIn](https://linkedin.com/in/timothyzshen) · [ORCID](https://orcid.org/0009-0003-0900-215X) · [CV](cv.pdf)\
+<!-- PLACEHOLDER: Google Scholar / Twitter(X) / Bluesky links -->
+
+```{=html}
+<script>
+  (function () {
+    var parts = ["tzshen", "ucla", "edu"];
+    var a = document.getElementById("email-link");
+    var addr = parts[0] + "@" + parts[1] + "." + parts[2];
+    a.href = "mai" + "lto:" + addr;
+    a.textContent = addr;
+  })();
+</script>
+```
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="68%"}
+## About
+
+I am a Ph.D. student in the Department of Biostatistics at the UCLA Fielding School of Public Health, advised by [Dr. Christina Ramirez](https://ph.ucla.edu/about/faculty-staff-directory/christina-ramirez) and [Dr. Brunilda Balliu](https://brunildaballiu.github.io/).
+
+My research interest is on interpretable machine learning methods for high-dimensional, correlated, and longitudinal data. I focus on tree-based models, network-aware feature selection, and unsupervised learning, with applications in HIV and aging, epigenomics, neuroscience, wearable devices and digital phenotyping for mental health.
+
+Previously, I received my B.S. in Statistics from UC Davis (minors in Computer Science and Mathematics) in 2024. In my spare time, I enjoy running to bakeries and eating at them. I am on a mission to eat at every bakery in the westside of Los Angeles. I also am a big advocate for public transportation and will attempt to convince anyone near me to ride transit with me.
+
+## R Package
+
+<i class="bi bi-box-seam"></i> [**mossyforest**](https://timothyzshen.github.io/mossyforest/) — network-aware stability selection with random forests for correlated, high-dimensional data. (Methods Paper in progress)
+<!-- PLACEHOLDER: swap icon for a hex sticker logo (images/mossyforest.png) if you have one -->
+
+## Research Interests
+
+- Tree-based models, feature selection, and deep learning
+- High-dimensional and longitudinal data
+- Network analysis and unsupervised learning
+- Epigenomics, HIV and aging, neuroscience, and digital mental health
+:::
+
+:::

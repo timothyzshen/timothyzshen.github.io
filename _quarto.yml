@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Timothy Shen"
+  navbar:
+    background: "#000000"
+    left:
+      - text: Home
+        href: index.qmd
+      - research.qmd
+      - software.qmd
+      - cv.qmd
+    right:
+      - icon: github
+        href: https://github.com/timothyzshen
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    include-after-body: newtab.html
