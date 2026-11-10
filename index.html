@@ -179,10 +179,9 @@ University of California, Los Angeles</p>
 <p>My research interest is on interpretable machine learning methods for high-dimensional, correlated, and longitudinal data. I focus on tree-based models, network-aware feature selection, and unsupervised learning, with applications in HIV and aging, epigenomics, neuroscience, wearable devices and digital phenotyping for mental health.</p>
 <p>Previously, I received my B.S. in Statistics from UC Davis (minors in Computer Science and Mathematics) in 2024. In my spare time, I enjoy running to bakeries and eating at them. I am on a mission to eat at every bakery in the westside of Los Angeles. I also am a big advocate for public transportation and will attempt to convince anyone near me to ride transit with me.</p>
 </section>
-<section id="packages" class="level2">
-<h2 class="anchored" data-anchor-id="packages">Packages</h2>
-<p><i class="bi bi-box-seam"></i> <a href="https://timothyzshen.github.io/mossyforest/"><strong>mossyforest</strong></a> — network-aware stability selection with random forests for correlated, high-dimensional data. (Methods Paper in progress)</p>
-<p><i class="bi bi-box-seam"></i> <a href="https://timothyzshen.github.io/mossyforest-py/"><strong>mossyforest-py</strong></a> — the Python version of mossyforest. <!-- PLACEHOLDER: swap icon for a hex sticker logo (images/mossyforest.png) if you have one --></p>
+<section id="r-package" class="level2">
+<h2 class="anchored" data-anchor-id="r-package">R Package</h2>
+<p><i class="bi bi-box-seam"></i> <a href="https://timothyzshen.github.io/mossyforest/"><strong>mossyforest</strong></a> — network-aware stability selection with random forests for correlated, high-dimensional data. (Methods Paper in progress) <!-- PLACEHOLDER: swap icon for a hex sticker logo (images/mossyforest.png) if you have one --></p>
 </section>
 <section id="research-interests" class="level2">
 <h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
@@ -282,7 +281,7 @@ University of California, Los Angeles</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/timothyzshen\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
