@@ -195,8 +195,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Timothy Shen and Christina Ramirez. R package version 0.1.0 (2026).</li>
 <li><a href="https://github.com/timothyzshen/mossyforest">GitHub</a></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("remotes")</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"timothyzshen/mossyforest"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("devtools")</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"timothyzshen/mossyforest"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li><a href="https://timothyzshen.github.io/mossyforest/">Documentation</a></li>
+</ul>
+</section>
+<section id="mossyforest-py" class="level2">
+<h2 class="anchored" data-anchor-id="mossyforest-py">mossyforest-py</h2>
+<p>The Python version of mossyforest, for network-aware stability selection with random forests.</p>
+<ul>
+<li><a href="https://github.com/timothyzshen/mossyforest-py">GitHub</a> <!-- PLACEHOLDER: confirm repo URL --></li>
+<li><a href="https://timothyzshen.github.io/mossyforest-py/">Documentation</a></li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># PLACEHOLDER: swap for `pip install mossyforest` once it is on PyPI</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install git+https://github.com/timothyzshen/mossyforest-py.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <!-- ## Other Projects -->
 <!-- - **PLACEHOLDER: Project name** — one-line description. [GitHub](https://github.com/timothyzshen) -->
 <!-- - **PLACEHOLDER: R Shiny dashboard** — description of a dashboard or tool you built. [Live app](#) -->
@@ -291,7 +304,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/timothyzshen\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
