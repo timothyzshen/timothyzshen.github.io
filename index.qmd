@@ -40,9 +40,11 @@ My research interest is on interpretable machine learning methods for high-dimen
 
 Previously, I received my B.S. in Statistics from UC Davis (minors in Computer Science and Mathematics) in 2024. In my spare time, I enjoy running to bakeries and eating at them. I am on a mission to eat at every bakery in the westside of Los Angeles. I also am a big advocate for public transportation and will attempt to convince anyone near me to ride transit with me.
 
-## R Package
+## Packages
 
 <i class="bi bi-box-seam"></i> [**mossyforest**](https://timothyzshen.github.io/mossyforest/) — network-aware stability selection with random forests for correlated, high-dimensional data. (Methods Paper in progress)
+
+<i class="bi bi-box-seam"></i> [**mossyforest-py**](https://timothyzshen.github.io/mossyforest-py/) — the Python version of mossyforest.
 <!-- PLACEHOLDER: swap icon for a hex sticker logo (images/mossyforest.png) if you have one -->
 
 ## Research Interests

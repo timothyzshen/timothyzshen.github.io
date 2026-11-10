@@ -12,8 +12,22 @@ An R package (submitted to CRAN) for interpretable, network-aware, tree-based fe
 - [GitHub](https://github.com/timothyzshen/mossyforest)
 
 ```r
-# install.packages("remotes")
-remotes::install_github("timothyzshen/mossyforest")
+# install.packages("devtools")
+devtools::install_github("timothyzshen/mossyforest")
+```
+
+- [Documentation](https://timothyzshen.github.io/mossyforest/)
+
+## mossyforest-py
+
+The Python version of mossyforest, for network-aware stability selection with random forests.
+
+- [GitHub](https://github.com/timothyzshen/mossyforest-py) <!-- PLACEHOLDER: confirm repo URL -->
+- [Documentation](https://timothyzshen.github.io/mossyforest-py/)
+
+```bash
+# PLACEHOLDER: swap for `pip install mossyforest` once it is on PyPI
+pip install git+https://github.com/timothyzshen/mossyforest-py.git
 ```
 
 <!-- ## Other Projects -->
