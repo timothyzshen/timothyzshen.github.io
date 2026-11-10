@@ -67,6 +67,6 @@
     "href": "software.html#mossyforest-py",
     "title": "Software",
     "section": "mossyforest-py",
-    "text": "mossyforest-py\nThe Python version of mossyforest, for network-aware stability selection with random forests.\n\nGitHub \nDocumentation\n\n# PLACEHOLDER: swap for `pip install mossyforest` if it is on PyPI\npip install git+https://github.com/timothyzshen/mossyforest-py.git"
+    "text": "mossyforest-py\nThe Python version of mossyforest, for network-aware stability selection with random forests.\n\nGitHub \nDocumentation\n\n# PLACEHOLDER: swap for `pip install mossyforest` once it is on PyPI\npip install git+https://github.com/timothyzshen/mossyforest-py.git"
   }
 ]
